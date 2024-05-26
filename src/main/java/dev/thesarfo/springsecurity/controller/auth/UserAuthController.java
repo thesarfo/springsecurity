@@ -1,12 +1,12 @@
-package dev.thesarfo.springsecurity.auth.user;
+package dev.thesarfo.springsecurity.controller.auth;
 
-import com.nimbusds.oauth2.sdk.TokenResponse;
 import dev.thesarfo.springsecurity.model.Token;
 import dev.thesarfo.springsecurity.model.dto.request.LoginRequest;
 import dev.thesarfo.springsecurity.model.dto.request.TokenInvalidateRequest;
 import dev.thesarfo.springsecurity.model.dto.request.TokenRefreshRequest;
 import dev.thesarfo.springsecurity.model.dto.request.UserRegisterRequest;
 import dev.thesarfo.springsecurity.model.dto.response.CustomResponse;
+import dev.thesarfo.springsecurity.model.dto.response.TokenResponse;
 import dev.thesarfo.springsecurity.model.mapper.TokenToTokenResponseMapper;
 import dev.thesarfo.springsecurity.service.user.UserLoginService;
 import dev.thesarfo.springsecurity.service.user.UserLogoutService;
@@ -63,3 +63,4 @@ public class UserAuthController {
     }
 
 }
+
