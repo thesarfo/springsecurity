@@ -2,8 +2,8 @@ package dev.thesarfo.springsecurity.service.impl.product;
 
 import dev.thesarfo.springsecurity.exception.product.ProductAlreadyExistException;
 import dev.thesarfo.springsecurity.model.Product;
-import dev.thesarfo.springsecurity.model.dto.request.ProductCreateRequest;
-import dev.thesarfo.springsecurity.model.entity.ProductEntity;
+import dev.thesarfo.springsecurity.model.dto.request.product.ProductCreateRequest;
+import dev.thesarfo.springsecurity.model.entity.product.ProductEntity;
 import dev.thesarfo.springsecurity.model.mapper.product.ProductCreateRequestToProductEntityMapper;
 import dev.thesarfo.springsecurity.model.mapper.product.ProductEntityToProductMapper;
 import dev.thesarfo.springsecurity.repository.product.ProductRepository;

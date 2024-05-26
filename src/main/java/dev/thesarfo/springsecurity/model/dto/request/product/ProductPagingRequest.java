@@ -1,5 +1,6 @@
-package dev.thesarfo.springsecurity.model.dto.request;
+package dev.thesarfo.springsecurity.model.dto.request.product;
 
+import dev.thesarfo.springsecurity.model.dto.request.CustomPagingRequest;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

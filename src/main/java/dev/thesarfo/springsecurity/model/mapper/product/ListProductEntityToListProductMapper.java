@@ -1,7 +1,7 @@
 package dev.thesarfo.springsecurity.model.mapper.product;
 
 import dev.thesarfo.springsecurity.model.Product;
-import dev.thesarfo.springsecurity.model.entity.ProductEntity;
+import dev.thesarfo.springsecurity.model.entity.product.ProductEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

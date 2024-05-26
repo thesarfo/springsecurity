@@ -1,6 +1,6 @@
 package dev.thesarfo.springsecurity.model.mapper.user;
 
-import dev.thesarfo.springsecurity.model.dto.request.UserRegisterRequest;
+import dev.thesarfo.springsecurity.model.dto.request.user.UserRegisterRequest;
 import dev.thesarfo.springsecurity.model.entity.user.UserEntity;
 import dev.thesarfo.springsecurity.model.mapper.BaseMapper;
 import org.mapstruct.Mapper;

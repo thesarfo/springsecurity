@@ -1,4 +1,4 @@
-package dev.thesarfo.springsecurity.model.dto.request;
+package dev.thesarfo.springsecurity.model.dto.request.token;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

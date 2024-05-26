@@ -1,7 +1,7 @@
 package dev.thesarfo.springsecurity.service.product;
 
 import dev.thesarfo.springsecurity.model.Product;
-import dev.thesarfo.springsecurity.model.dto.request.ProductUpdateRequest;
+import dev.thesarfo.springsecurity.model.dto.request.product.ProductUpdateRequest;
 
 public interface ProductUpdateService {
 

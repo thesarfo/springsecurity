@@ -3,7 +3,7 @@ package dev.thesarfo.springsecurity.service.impl.user;
 import dev.thesarfo.springsecurity.exception.user.UserNotFoundException;
 import dev.thesarfo.springsecurity.exception.user.UserStatusNotValidException;
 import dev.thesarfo.springsecurity.model.Token;
-import dev.thesarfo.springsecurity.model.dto.request.TokenRefreshRequest;
+import dev.thesarfo.springsecurity.model.dto.request.token.TokenRefreshRequest;
 import dev.thesarfo.springsecurity.model.entity.user.UserEntity;
 import dev.thesarfo.springsecurity.model.enums.TokenClaims;
 import dev.thesarfo.springsecurity.model.enums.UserStatus;

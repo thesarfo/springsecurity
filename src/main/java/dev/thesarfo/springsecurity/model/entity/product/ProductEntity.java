@@ -1,5 +1,6 @@
-package dev.thesarfo.springsecurity.model.entity;
+package dev.thesarfo.springsecurity.model.entity.product;
 
+import dev.thesarfo.springsecurity.model.entity.BaseEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package dev.thesarfo.springsecurity.model.dto.response;
+package dev.thesarfo.springsecurity.model.dto.response.product;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

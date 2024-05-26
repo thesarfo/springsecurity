@@ -1,4 +1,4 @@
-package dev.thesarfo.springsecurity.model.dto.request;
+package dev.thesarfo.springsecurity.model.dto.request.product;
 
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Size;

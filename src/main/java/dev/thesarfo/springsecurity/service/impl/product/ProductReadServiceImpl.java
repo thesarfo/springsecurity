@@ -2,9 +2,9 @@ package dev.thesarfo.springsecurity.service.impl.product;
 
 import dev.thesarfo.springsecurity.exception.product.ProductNotFoundException;
 import dev.thesarfo.springsecurity.model.Product;
-import dev.thesarfo.springsecurity.model.dto.request.ProductPagingRequest;
+import dev.thesarfo.springsecurity.model.dto.request.product.ProductPagingRequest;
 import dev.thesarfo.springsecurity.model.dto.response.CustomPage;
-import dev.thesarfo.springsecurity.model.entity.ProductEntity;
+import dev.thesarfo.springsecurity.model.entity.product.ProductEntity;
 import dev.thesarfo.springsecurity.model.mapper.product.ListProductEntityToListProductMapper;
 import dev.thesarfo.springsecurity.model.mapper.product.ProductEntityToProductMapper;
 import dev.thesarfo.springsecurity.repository.product.ProductRepository;

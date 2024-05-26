@@ -1,7 +1,7 @@
 package dev.thesarfo.springsecurity.service.impl.product;
 
 import dev.thesarfo.springsecurity.exception.product.ProductNotFoundException;
-import dev.thesarfo.springsecurity.model.entity.ProductEntity;
+import dev.thesarfo.springsecurity.model.entity.product.ProductEntity;
 import dev.thesarfo.springsecurity.repository.product.ProductRepository;
 import dev.thesarfo.springsecurity.service.product.ProductDeleteService;
 import lombok.RequiredArgsConstructor;

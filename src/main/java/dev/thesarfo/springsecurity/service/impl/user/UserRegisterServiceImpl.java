@@ -2,7 +2,7 @@ package dev.thesarfo.springsecurity.service.impl.user;
 
 import dev.thesarfo.springsecurity.exception.user.UserAlreadyExistException;
 import dev.thesarfo.springsecurity.model.User;
-import dev.thesarfo.springsecurity.model.dto.request.UserRegisterRequest;
+import dev.thesarfo.springsecurity.model.dto.request.user.UserRegisterRequest;
 import dev.thesarfo.springsecurity.model.entity.user.UserEntity;
 import dev.thesarfo.springsecurity.model.mapper.user.UserEntityToUserMapper;
 import dev.thesarfo.springsecurity.model.mapper.user.UserRegisterRequestToUserEntityMapper;

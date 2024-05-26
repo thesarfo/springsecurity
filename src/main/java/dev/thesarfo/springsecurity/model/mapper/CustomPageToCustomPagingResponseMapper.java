@@ -4,7 +4,7 @@ package dev.thesarfo.springsecurity.model.mapper;
 import dev.thesarfo.springsecurity.model.Product;
 import dev.thesarfo.springsecurity.model.dto.response.CustomPage;
 import dev.thesarfo.springsecurity.model.dto.response.CustomPagingResponse;
-import dev.thesarfo.springsecurity.model.dto.response.ProductResponse;
+import dev.thesarfo.springsecurity.model.dto.response.product.ProductResponse;
 import dev.thesarfo.springsecurity.model.mapper.product.ProductToProductResponseMapper;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;

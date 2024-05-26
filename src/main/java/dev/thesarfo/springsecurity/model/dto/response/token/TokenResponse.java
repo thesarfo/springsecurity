@@ -1,6 +1,5 @@
-package dev.thesarfo.springsecurity.model.dto.request;
+package dev.thesarfo.springsecurity.model.dto.response.token;
 
-import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,12 +11,10 @@ import lombok.Builder;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TokenInvalidateRequest {
+public class TokenResponse {
 
-    @NotBlank
     private String accessToken;
-
-    @NotBlank
+    private Long accessTokenExpiresAt;
     private String refreshToken;
 
 }

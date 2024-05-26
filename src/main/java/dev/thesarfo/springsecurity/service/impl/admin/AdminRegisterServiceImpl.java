@@ -2,7 +2,7 @@ package dev.thesarfo.springsecurity.service.impl.admin;
 
 import dev.thesarfo.springsecurity.exception.admin.AdminAlreadyExistException;
 import dev.thesarfo.springsecurity.model.Admin;
-import dev.thesarfo.springsecurity.model.dto.request.AdminRegisterRequest;
+import dev.thesarfo.springsecurity.model.dto.request.admin.AdminRegisterRequest;
 import dev.thesarfo.springsecurity.model.entity.admin.AdminEntity;
 import dev.thesarfo.springsecurity.model.mapper.admin.AdminEntityToAdminMapper;
 import dev.thesarfo.springsecurity.model.mapper.admin.AdminRegisterRequestToAdminEntityMapper;

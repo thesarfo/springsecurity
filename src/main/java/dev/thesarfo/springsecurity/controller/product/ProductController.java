@@ -1,13 +1,13 @@
 package dev.thesarfo.springsecurity.controller.product;
 
 import dev.thesarfo.springsecurity.model.Product;
-import dev.thesarfo.springsecurity.model.dto.request.ProductCreateRequest;
-import dev.thesarfo.springsecurity.model.dto.request.ProductPagingRequest;
-import dev.thesarfo.springsecurity.model.dto.request.ProductUpdateRequest;
+import dev.thesarfo.springsecurity.model.dto.request.product.ProductCreateRequest;
+import dev.thesarfo.springsecurity.model.dto.request.product.ProductPagingRequest;
+import dev.thesarfo.springsecurity.model.dto.request.product.ProductUpdateRequest;
 import dev.thesarfo.springsecurity.model.dto.response.CustomPage;
 import dev.thesarfo.springsecurity.model.dto.response.CustomPagingResponse;
 import dev.thesarfo.springsecurity.model.dto.response.CustomResponse;
-import dev.thesarfo.springsecurity.model.dto.response.ProductResponse;
+import dev.thesarfo.springsecurity.model.dto.response.product.ProductResponse;
 import dev.thesarfo.springsecurity.model.mapper.CustomPageToCustomPagingResponseMapper;
 import dev.thesarfo.springsecurity.model.mapper.product.ProductToProductResponseMapper;
 import dev.thesarfo.springsecurity.service.product.ProductCreateService;

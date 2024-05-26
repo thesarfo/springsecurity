@@ -1,12 +1,12 @@
 package dev.thesarfo.springsecurity.controller.auth;
 
 import dev.thesarfo.springsecurity.model.Token;
-import dev.thesarfo.springsecurity.model.dto.request.AdminRegisterRequest;
+import dev.thesarfo.springsecurity.model.dto.request.admin.AdminRegisterRequest;
 import dev.thesarfo.springsecurity.model.dto.request.LoginRequest;
-import dev.thesarfo.springsecurity.model.dto.request.TokenInvalidateRequest;
-import dev.thesarfo.springsecurity.model.dto.request.TokenRefreshRequest;
+import dev.thesarfo.springsecurity.model.dto.request.token.TokenInvalidateRequest;
+import dev.thesarfo.springsecurity.model.dto.request.token.TokenRefreshRequest;
 import dev.thesarfo.springsecurity.model.dto.response.CustomResponse;
-import dev.thesarfo.springsecurity.model.dto.response.TokenResponse;
+import dev.thesarfo.springsecurity.model.dto.response.token.TokenResponse;
 import dev.thesarfo.springsecurity.model.mapper.TokenToTokenResponseMapper;
 import dev.thesarfo.springsecurity.service.admin.AdminLoginService;
 import dev.thesarfo.springsecurity.service.admin.AdminLogoutService;

@@ -4,7 +4,7 @@ package dev.thesarfo.springsecurity.service.impl.admin;
 import dev.thesarfo.springsecurity.exception.admin.AdminNotFoundException;
 import dev.thesarfo.springsecurity.exception.user.UserStatusNotValidException;
 import dev.thesarfo.springsecurity.model.Token;
-import dev.thesarfo.springsecurity.model.dto.request.TokenRefreshRequest;
+import dev.thesarfo.springsecurity.model.dto.request.token.TokenRefreshRequest;
 import dev.thesarfo.springsecurity.model.entity.admin.AdminEntity;
 import dev.thesarfo.springsecurity.model.enums.TokenClaims;
 import dev.thesarfo.springsecurity.model.enums.UserStatus;
