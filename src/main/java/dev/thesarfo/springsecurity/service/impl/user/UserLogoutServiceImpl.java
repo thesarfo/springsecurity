@@ -1,8 +1,8 @@
 package dev.thesarfo.springsecurity.service.impl.user;
 
 import dev.thesarfo.springsecurity.model.dto.request.TokenInvalidateRequest;
-import dev.thesarfo.springsecurity.service.InvalidTokenService;
-import dev.thesarfo.springsecurity.service.TokenService;
+import dev.thesarfo.springsecurity.service.token.InvalidTokenService;
+import dev.thesarfo.springsecurity.service.token.TokenService;
 import dev.thesarfo.springsecurity.service.user.UserLogoutService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

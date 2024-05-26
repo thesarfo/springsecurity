@@ -6,7 +6,7 @@ import dev.thesarfo.springsecurity.model.Token;
 import dev.thesarfo.springsecurity.model.dto.request.LoginRequest;
 import dev.thesarfo.springsecurity.model.entity.admin.AdminEntity;
 import dev.thesarfo.springsecurity.repository.admin.AdminRepository;
-import dev.thesarfo.springsecurity.service.TokenService;
+import dev.thesarfo.springsecurity.service.token.TokenService;
 import dev.thesarfo.springsecurity.service.admin.AdminLoginService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;

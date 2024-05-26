@@ -1,4 +1,4 @@
-package dev.thesarfo.springsecurity.service.impl;
+package dev.thesarfo.springsecurity.service.impl.token;
 
 import dev.thesarfo.springsecurity.config.TokenConfigurationParameter;
 import dev.thesarfo.springsecurity.model.Token;
@@ -6,8 +6,8 @@ import dev.thesarfo.springsecurity.model.enums.ConfigurationParameter;
 import dev.thesarfo.springsecurity.model.enums.TokenClaims;
 import dev.thesarfo.springsecurity.model.enums.TokenType;
 import dev.thesarfo.springsecurity.model.enums.UserType;
-import dev.thesarfo.springsecurity.service.InvalidTokenService;
-import dev.thesarfo.springsecurity.service.TokenService;
+import dev.thesarfo.springsecurity.service.token.InvalidTokenService;
+import dev.thesarfo.springsecurity.service.token.TokenService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.JwsHeader;

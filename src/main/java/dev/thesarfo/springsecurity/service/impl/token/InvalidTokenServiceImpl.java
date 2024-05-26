@@ -1,9 +1,9 @@
-package dev.thesarfo.springsecurity.service.impl;
+package dev.thesarfo.springsecurity.service.impl.token;
 
 import dev.thesarfo.springsecurity.exception.auth.TokenAlreadyInvalidatedException;
 import dev.thesarfo.springsecurity.model.entity.InvalidTokenEntity;
 import dev.thesarfo.springsecurity.repository.auth.InvalidTokenRepository;
-import dev.thesarfo.springsecurity.service.InvalidTokenService;
+import dev.thesarfo.springsecurity.service.token.InvalidTokenService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

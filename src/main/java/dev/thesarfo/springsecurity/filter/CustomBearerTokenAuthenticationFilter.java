@@ -1,8 +1,8 @@
 package dev.thesarfo.springsecurity.filter;
 
 import dev.thesarfo.springsecurity.model.Token;
-import dev.thesarfo.springsecurity.service.InvalidTokenService;
-import dev.thesarfo.springsecurity.service.TokenService;
+import dev.thesarfo.springsecurity.service.token.InvalidTokenService;
+import dev.thesarfo.springsecurity.service.token.TokenService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,8 +1,9 @@
-package dev.thesarfo.springsecurity.model.mapper;
+package dev.thesarfo.springsecurity.model.mapper.admin;
 
 
 import dev.thesarfo.springsecurity.model.Admin;
 import dev.thesarfo.springsecurity.model.entity.admin.AdminEntity;
+import dev.thesarfo.springsecurity.model.mapper.BaseMapper;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

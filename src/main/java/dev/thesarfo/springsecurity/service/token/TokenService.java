@@ -1,4 +1,4 @@
-package dev.thesarfo.springsecurity.service;
+package dev.thesarfo.springsecurity.service.token;
 
 import dev.thesarfo.springsecurity.model.Token;
 import io.jsonwebtoken.Claims;

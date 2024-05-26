@@ -1,4 +1,4 @@
-package dev.thesarfo.springsecurity.service;
+package dev.thesarfo.springsecurity.service.token;
 
 import java.util.Set;
 

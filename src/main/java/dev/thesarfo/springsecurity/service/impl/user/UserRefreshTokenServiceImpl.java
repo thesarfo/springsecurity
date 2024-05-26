@@ -8,7 +8,7 @@ import dev.thesarfo.springsecurity.model.entity.user.UserEntity;
 import dev.thesarfo.springsecurity.model.enums.TokenClaims;
 import dev.thesarfo.springsecurity.model.enums.UserStatus;
 import dev.thesarfo.springsecurity.repository.user.UserRepository;
-import dev.thesarfo.springsecurity.service.TokenService;
+import dev.thesarfo.springsecurity.service.token.TokenService;
 import dev.thesarfo.springsecurity.service.user.UserRefreshTokenService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
