@@ -4,7 +4,12 @@ package dev.thesarfo.springsecurity.model;
 import dev.thesarfo.springsecurity.common.BaseDomainModel;
 import dev.thesarfo.springsecurity.model.enums.UserStatus;
 import dev.thesarfo.springsecurity.model.enums.UserType;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
 @Getter
