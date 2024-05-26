@@ -11,7 +11,7 @@
 	<groupId>com.springboot</groupId>
 	<artifactId>springbootsecurity</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springbootsecurity</name>
+	<name>springsecurity</name>
 	<description>Spring Security in Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -57,11 +57,11 @@
 		</dependency>
 
 		<!-- BOUNCY CASTLE DEPENDENCY -->
-<!--		<dependency>-->
-<!--			<groupId>org.bouncycastle</groupId>-->
-<!--			<artifactId>bcpkix-jdk18on</artifactId>-->
-<!--			<version>${bouncycastle.version}</version>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcpkix-jdk18on</artifactId>
+			<version>${bouncycastle.version}</version>
+		</dependency>
 		<!-- BOUNCY CASTLE DEPENDENCY -->
 
 		<!-- APACHE COMMONS DEPENDENCY -->
