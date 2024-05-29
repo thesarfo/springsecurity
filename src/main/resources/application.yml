@@ -7,9 +7,9 @@ spring:
     import: optional:file:.env[.properties]
   datasource:
     name: mysql
-    url: jdbc:mysql://${SECURITY_DB_IP:localhost}:${SECURITY_DB_PORT:3306}/springsecurity
+    url: jdbc:mysql://${SECURITY_DB_IP:localhost}:${SECURITY_DB_PORT:3306}/springsecurity?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Jakarta&useSSL=false&allowPublicKeyRetrieval=true
     username: ${DATABASE_USERNAME:root}
-    password: ${DATABASE_PASSWORD:password}
+    password: ${DATABASE_PASSWORD:root}
   jpa:
     properties:
       hibernate:
